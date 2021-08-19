@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap'); */
+/** ヘッダーカラーを緑色に. */
+.md-header {
+  background-color: #006633;
+  color: #fff;
+}
+
+.md-tabs__inner {
+  background-color: #006633;
+}
+
+nav.md-tabs {
+  background-color: #006633;
+}
+
+.md-tabs--active {
+  color:#ffffff !important;
+}
+.md-main {
+  padding: 0;
+  margin: 0;
+}
+.md-main__inner {
+  margin-top: 0;
+}
+article {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem !important;
+}
+.md-content {
+  margin: 0;
+  padding: 0;
+  height: 97%;
+  overflow-x: scroll;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  text-orientation: upright;
+  /* color: orange; */
+  /* font-family: 'Noto Serif JP', serif !important; */
+}
